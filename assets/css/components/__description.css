@@ -1,0 +1,15 @@
+.description{
+    margin-top:5rem;
+    margin-left:1rem;
+    margin-right: 1rem;
+    color:black;
+    line-height: 1.25rem;
+}
+
+.description__li{
+    margin-left:2rem;
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+    
+}

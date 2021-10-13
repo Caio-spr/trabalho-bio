@@ -1,0 +1,21 @@
+.header{
+    position: fixed;
+    height:10vh;
+    width:100vw;
+    
+    background-color:var(--purple);
+    
+    color:var(--white);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section{
+    padding-top: 5rem;
+}
+
+
+
+

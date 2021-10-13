@@ -1,0 +1,10 @@
+.divisor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    height: 10vh;
+    width: 100vw;
+    background-color: var(--purple);
+
+}

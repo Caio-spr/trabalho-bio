@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+:root{
+    /* 
+    * Variables
+    */
+
+    /* font families */
+    --main-font:'Open Sans', sans-serif;
+
+    font-family: var(--main-font);
+    
+    /* colors */
+    --grey: #c4c4c4;
+    --white: #f1f1f1;
+    --purple: #b1529c;
+    
+
+    /* text  */
+
+    font-size: 16px;
+    color: var(--white);
+    line-height: 2rem;
+    --page-title:1.25rem;
+}
+
+
+

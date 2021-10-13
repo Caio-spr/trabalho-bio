@@ -1,0 +1,10 @@
+.title-page{ 
+    margin-left:4rem;
+    font-size: var(--page-title);
+}
+
+.title-sector{
+    font-size: var(--page-title);
+    justify-self: center;
+}
+

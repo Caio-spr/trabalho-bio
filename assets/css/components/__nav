@@ -1,0 +1,11 @@
+.header__nav__ul{
+    display: flex;
+    margin-right: 4rem;
+}
+.header__nav__ul__li{
+    margin-left:2rem;
+}
+.header__nav__ul__li > a{
+    color: var(--white);
+    text-decoration: none;
+}
