@@ -1,5 +1,7 @@
 @import url(__divisor.css);
 @import url(__nav.css);
-@import url(__title.css);
+@import url(__title-and-texts.css);
 @import url(__description.css);
 @import url(__card.css);
+@import url(__popup.css);
+@import url(__carousel.css);
