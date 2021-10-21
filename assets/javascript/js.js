@@ -1,12 +1,31 @@
 // *abrir o popup quando clica no "saiba mais"
 
+/* 
+quando tiver "?" antes de uma coisa é um problema ou questão que eu tenho que resolver
+
+? como fazer um carrossel?
+
+quando tiver um "!" antes, significa que é uma tarefa que eu ainda não fiz ou que é um bug
+
+! organizar os cards
+
+quando tiver um "*" antes significa que é uma tarefa já concluida, ou é só algo que quero destacar
+
+* Transformar as classes css em variáveis no js
+
+
+*/
+
+
+
+
 /*
-* o que precisa:
+? o que precisa?:
 
 * pegar as classes e trasnformar em variáveis
-! adicionar a classe "active" quando apertar o botão do card
-! remover a classe active quando clicar no x ou em qualquer ponto do overlay
-! profit
+* adicionar a classe "active" quando apertar o botão do card
+* remover a classe active quando clicar no x ou em qualquer ponto do overlay
+
 
 */
 
@@ -36,10 +55,43 @@ closePopupButton[0].addEventListener("click",()=>{
 overlay.addEventListener("click",()=>{
     popup.classList.remove('active');
     overlay.classList.remove('active');
-    console.log(ev.target.dataset.id);
 });
 
 
+/* 
+! criar o carrossel 
+*/
 
+
+
+
+let grid = document.getElementById("grid");
+let posGrid= 0;
+
+$(document).ready(()=>{
+    
+    console.log("iniciado");
+
+
+    $("#next").click(()=>{
+        
+        posGrid = posGrid+1;
+        
+        if(posGrid>$(".card").length-4){
+            posGrid=0;
+        }
+
+        $("#grid").animate({"left":-$(".card").eq(posGrid).position().left},200);
+        
+    });
+
+    $("#prev").click(()=>{
+        posGrid = posGrid-1;
+        if(posGrid<0){
+            posGrid=$(".card").length-4;
+        }
+        $("#grid").animate({"left":-$(".card").eq(posGrid).position().left},200);
+    });
+});
 
 

@@ -1,19 +1,29 @@
+.carousel{
+    max-height:400px;
+    overflow: hidden;
+    position: static;
+    margin-bottom: 2rem;
+}
+
 .cards-grid{
     display: grid;
-    
+    /* flex-flow: row nowrap;
+    justify-content: space-evenly;
+     */
+    position: relative;
     margin-top:2rem;
     margin-left:3rem;
-    margin-bottom:2rem;
 
-
-    grid-template-columns: 22.5% 22.5% 22.5% 22.5% ;
-    gap: 2%;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5% 23.5% 23.5% 23.5% 23.5% 23.5% 23.5% 23.5% 23.5% 23.5% 23.5% 23.5%;
+    gap:2%;
 }
 
 .card{
     background-color: var(--grey);
     height:50vh;
+    width:20vw;
     padding:1rem;
+    
 
     display: flex;
     flex-flow: column nowrap;
@@ -21,6 +31,10 @@
 
     color:black;
     border-radius:10px;
+}
+
+.card .invisible{
+    display: none;
 }
 
 .card__img{

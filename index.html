@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-   
-   <!-- 
-   *charset + viewport
-   -->
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <head>
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      
+      <!-- 
+         *charset + viewport
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
    <!-- 
    * title + icon
    -->
-   <title>Trabalho</title>
+   <title>Glossário de Embriologia</title>
    <link rel="stylesheet" href="">
    
    <!-- 
-   *common style
+   *style
    -->
-   <link rel="stylesheet" href="../assets/css/common/common.css">
-   
-   <!-- 
-   *component style
-   -->
-   <link rel="stylesheet" href="assets/css/components/components.css">
+   <link rel="stylesheet" href="assets/css/common/common.css">
 </head>
 
 
@@ -72,125 +68,136 @@
          <div class="carousel-wrapper">
             <div class="carousel">
                
-               <div class="cards-grid">
-                  <article class="card carousel-card initial">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+               <div class="cards-grid" id="grid">
+
+                  
+
+                  <article class="card card-0">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                     <h3 class="title-section card__title">Nome do Termo</h3>
+                     <p class="card__description">0</p>
+                     <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
+                  </article>
+
+                  <article class="card card-1">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                     <h3 class="title-section card__title">Nome do Termo</h3>
+                     <p class="card__description">1</p>
+                     <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
+                  </article>
+
+                  <article class="card card-2">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                     <h3 class="title-section card__title">Nome do Termo</h3>
+                     <p class="card__description">2</p>
+                     <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
+                  </article>
+
+                  <article class="card card-3">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                     <h3 class="title-section card__title">Nome do Termo</h3>
+                     <p class="card__description">3</p>
+                     <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
+                  </article>
+
+              
+
+                  <article class="card card-4">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
                      <h3 class="title-section card__title">Nome do Termo</h3>
                      <p class="card__description">...</p>
                      <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
                   </article>
 
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                  <article class="card card-5">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
                      <h3 class="title-section card__title">Nome do Termo</h3>
                      <p class="card__description">...</p>
                      <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
                   </article>
 
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                  <article class="card card-6">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
                      <h3 class="title-section card__title">Nome do Termo</h3>
                      <p class="card__description">...</p>
                      <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
                   </article>
 
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                  <article class="card card-7">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
                      <h3 class="title-section card__title">Nome do Termo</h3>
                      <p class="card__description">...</p>
                      <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
                   </article>
 
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                  <article class="card card-8">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
                      <h3 class="title-section card__title">Nome do Termo</h3>
                      <p class="card__description">...</p>
                      <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
                   </article>
 
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                  <article class="card card-9">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
                      <h3 class="title-section card__title">Nome do Termo</h3>
                      <p class="card__description">...</p>
                      <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
                   </article>
 
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                  <article class="card card-10">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
                      <h3 class="title-section card__title">Nome do Termo</h3>
                      <p class="card__description">...</p>
                      <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
                   </article>
 
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                  <article class="card card-11">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
                      <h3 class="title-section card__title">Nome do Termo</h3>
                      <p class="card__description">...</p>
                      <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
                   </article>
 
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                  <article class="card card-12">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
                      <h3 class="title-section card__title">Nome do Termo</h3>
                      <p class="card__description">...</p>
                      <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
                   </article>
 
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                  <article class="card card-13">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
                      <h3 class="title-section card__title">Nome do Termo</h3>
                      <p class="card__description">...</p>
                      <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
                   </article>
-
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
-                     <h3 class="title-section card__title">Nome do Termo</h3>
-                     <p class="card__description">...</p>
-                     <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
-                  </article>
-
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
-                     <h3 class="title-section card__title">Nome do Termo</h3>
-                     <p class="card__description">...</p>
-                     <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
-                  </article>
-
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
-                     <h3 class="title-section card__title">Nome do Termo</h3>
-                     <p class="card__description">...</p>
-                     <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
-                  </article>
-
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
-                     <h3 class="title-section card__title">Nome do Termo</h3>
-                     <p class="card__description">...</p>
-                     <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
-                  </article>
-                  <article class="card carousel-card">
-                     <img src="../assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
+                  <article class="card card-14">
+                     <img src="assets/img/dummy.jpg" alt="foto do termo popup3" class="card__img">
                      <h3 class="title-section card__title">Nome do Termo</h3>
                      <p class="card__description">...</p>
                      <button class="card__button open-popup-button" data-id="popup3">Saiba Mais</button>
                   </article>
                </div>
             </div>
+            <div class="carousel__actions">
+               <button id="prev" aria-label="slide anterior"> <- </button>
+            </div>
+            <div class="carousel__actions">
+               <button id="next" aria-label="slide próximo"> -> </button>
+            </div>
          </div>
          
 
          <div class="popup" id="popup0">
             <div class="popup__header">
-               <h1 class="popup__title text">Popup</h1>
+               <a href="https://brasilescola.uol.com.br/" class="popup__title text" target="_blank">Ir para a Fonte</a>
                <button data-close-button class="close-button">&times;</button>
             </div>
             <div class="popup__content">
                <iframe class="popup__iframe" src="https://brasilescola.uol.com.br/" frameborder="0"></iframe>
             </div>
          </div>
-         <div id="overlay"  ></div>
+         <div id="overlay"></div>
 
 
          
@@ -206,5 +213,5 @@
       
    </footer>
 </body>
-<script src="../assets/javascript/js.js"></script>
+<script src="assets/javascript/js.js"></script>
 </html>
