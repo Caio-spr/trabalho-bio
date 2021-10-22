@@ -55,7 +55,7 @@ closePopupButton[0].addEventListener("click",()=>{
 overlay.addEventListener("click",()=>{
     popup.classList.remove('active');
     overlay.classList.remove('active');
-});
+}); //quando clica em qualquer parte da tela fora do popup ele se esconde
 
 
 /* 

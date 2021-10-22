@@ -16,6 +16,21 @@
     padding-top:5rem ;
 }
 
+.footer{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+
+    background-color: var(--purple);
+
+    padding: 1rem;
+}
+.footer__title{
+    font-weight: 700;
+    font-size:1.15rem;
+    margin-right:1rem;
+}
+
 
 
 

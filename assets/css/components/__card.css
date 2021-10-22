@@ -1,15 +1,8 @@
-.carousel{
-    max-height:400px;
-    overflow: hidden;
-    position: static;
-    margin-bottom: 2rem;
-}
+
 
 .cards-grid{
     display: grid;
-    /* flex-flow: row nowrap;
-    justify-content: space-evenly;
-     */
+  
     position: relative;
     margin-top:2rem;
     margin-left:3rem;
@@ -57,4 +50,10 @@
     background-color: var(--purple);
     padding:1rem 2rem;
     border-radius:10px;
+    border:none;
+}
+
+.card__button:hover{
+    cursor:pointer;
+    background-color: var(--darker-purple);
 }
