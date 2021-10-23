@@ -46,4 +46,4 @@ Não sei fazer, por isso que eu fiz ele bem simples.
 
 Caio_spr 
 
-Com participação especial do Google e do meu pai, que me ajudou em algumas partes do projeto
+Com participação especial do meu pai, que me ajudou em algumas partes do projeto (tudo que usei o jquery)
